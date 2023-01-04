@@ -60,3 +60,9 @@ a {
   border-top-color: #b1aa97;
   animation: 0.5s spin infinite linear;
 }
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
